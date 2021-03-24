@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+_url = "{{ page.redirect_to }}" + window.location.pathname
+_clean_url = _url.replace(/([^:]\/)\/+/g, "$1")
+window.location.replace(_clean_url);
+</script>
+</head>
+<body>
+</body>
+</html>
